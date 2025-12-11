@@ -1,8 +1,5 @@
 import { useState, useEffect } from 'react'
 
-// --- CONSTANTES COULEURS ---
-// Utilisation via les classes Tailwind arbitraires : bg-[#7603a9] etc.
-
 // --- DONNÉES GRENOBLE (Salles Réelles) ---
 const GYM_DATA = [
     {
@@ -454,9 +451,7 @@ function App() {
                     <div className="flex justify-between h-20 items-center">
                         {/* LOGO & NOM */}
                         <div className="flex items-center gap-3 cursor-pointer" onClick={() => window.scrollTo(0,0)}>
-                            <div className="w-10 h-10 bg-gradient-to-br from-[#7603a9] to-purple-900 rounded-xl flex items-center justify-center text-white font-bold shadow-lg shadow-purple-200">
-                                <i className="fas fa-layer-group"></i>
-                            </div>
+                            <img src="/Logo.svg" alt="Gymity Logo" className="w-10 h-10 object-contain" />
                             <span className="text-2xl font-bold text-slate-900 tracking-tight">Gymity</span>
                         </div>
 
@@ -615,7 +610,7 @@ function App() {
             {/* FOOTER */}
             <footer className="bg-slate-50 border-t border-slate-200 py-12">
                 <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center opacity-60">
-                    <div className="flex items-center gap-2 mb-4 md:mb-0"><i className="fas fa-layer-group"></i><span className="font-bold">Gymity</span></div>
+                    <div className="flex items-center gap-2 mb-4 md:mb-0"><img src="/Logo.svg" alt="Logo" className="w-5 h-5" /><span className="font-bold">Gymity</span></div>
                     <p className="text-sm">© 2025 Gymity. Tech for Good Project.</p>
                 </div>
             </footer>
