@@ -509,14 +509,14 @@ function App() {
                             <div className="flex items-center bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition">
                                 <i className="fab fa-apple text-xl mr-2"></i>
                                 <div className="text-left">
-                                    <div className="text-[9px] uppercase">Download on the</div>
+                                    <div className="text-[9px] uppercase">Télécharger sur</div>
                                     <div className="text-xs font-bold leading-none">App Store</div>
                                 </div>
                             </div>
                             <div className="flex items-center bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition">
                                 <i className="fab fa-google-play text-xl mr-2"></i>
                                 <div className="text-left">
-                                    <div className="text-[9px] uppercase">Get it on</div>
+                                    <div className="text-[9px] uppercase">Télécharger sur</div>
                                     <div className="text-xs font-bold leading-none">Google Play</div>
                                 </div>
                             </div>
